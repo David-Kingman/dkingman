@@ -1,10 +1,9 @@
 Package: dk_functions_package
-Title: What the Package Does (One Line, Title Case)
+Title: Personal Package for David Kingman 
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person(given = 'David', family = 'Kingman', email = 'david_kingman@hotmail.co.uk', role = c("aut", "cre"))
+Description: A package containing David Kingman's personal utility functions and R templates.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
@@ -13,3 +12,5 @@ RoxygenNote: 7.1.2
 Depends: 
     R (>= 2.10)
 LazyData: true
+Imports: 
+    tibble
