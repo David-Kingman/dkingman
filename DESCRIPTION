@@ -13,4 +13,7 @@ Depends:
     R (>= 2.10)
 LazyData: true
 Imports: 
-    tibble
+   tibble,
+    srvyr,
+    robsurvey
+    
