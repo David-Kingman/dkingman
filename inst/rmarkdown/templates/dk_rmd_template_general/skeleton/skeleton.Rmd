@@ -22,10 +22,6 @@ editor_options:
 knitr::opts_chunk$set(fig.align = "center", out.width = "100%", fig.asp = 0.50)
 options(scipen = 999)
 options(encoding = "UTF-8")
-
-# Install and attach packages
-if (!'pacman' %in% installed.packages()[, 'Package']) install.packages('pacman')
-pacman::p_load(char = c('tidyverse', 'knitr', 'here'), update = FALSE)
 ```
 
 ```{css fix_whitespace, echo=FALSE}
