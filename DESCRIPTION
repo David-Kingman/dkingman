@@ -1,6 +1,6 @@
 Package: dkingman
 Title: Personal Package for David Kingman 
-Version: 0.0.0.9000
+Version: 1.1.0
 Authors@R: 
     person(given = 'David', family = 'Kingman', email = 'david_kingman@hotmail.co.uk', role = c("aut", "cre"))
 Description: A package containing David Kingman's personal utility functions and R templates.
@@ -16,4 +16,3 @@ Imports:
    tibble,
     srvyr,
     robsurvey
-    
